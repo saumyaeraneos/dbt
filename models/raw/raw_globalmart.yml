@@ -15,11 +15,11 @@ models:
             - not_null
         - name: shipmode
           tests:
-              - accepted_values:
+            - accepted_values:
                 values:
-                    - 'First Class'
-                    - 'Second Class'
-                    - 'Same Day'
-                    - 'Standard Class'
+                  - 'First Class'
+                  - 'Second Class'
+                  - 'Same Day'
+                  - 'Standard Class'
   
 
